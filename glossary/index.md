@@ -1,7 +1,8 @@
 ---
 title:  Glossary
-layout: post
+layout: default
 ---
 
+# Glossary
 
 This page is under construction
