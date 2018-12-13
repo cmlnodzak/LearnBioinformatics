@@ -1,5 +1,4 @@
 ---
-title:  Glossary
 layout: default
 ---
 
