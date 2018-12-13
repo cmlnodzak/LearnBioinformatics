@@ -4,7 +4,7 @@
 ### Potential Topics
  
   --- [Glossary]({{ https://cmlnodzak.github.io/ }}{% link glossary.html %}) <br/>
-  --- [Working at the Command Line] ({{ https://cmlnodzak.github.io/ }}{% link commandLine.html %}} <br/>
+  --- [Working at the Command Line]({{ https://cmlnodzak.github.io/ }}{% link commandLine.html %}} <br/>
   --- [Programming in Python]({{ https://cmlnodzak.github.io/ }}{% link programming.html %}) <br/>
   --- [Statistics for Bioinformatics]({{ https://cmlnodzak.github.io/ }}{% link statistics.html %}) <br/>
   --- [Machine Learning]({{ https://cmlnodzak.github.io/ }}{% link machinelearning.html %}) <br/>
