@@ -1,4 +1,7 @@
-# Epigenetics and Genomics
+---
+title: Epigenetics and Genomics
+layout: post
+--- 
 
 
 This page is under construction

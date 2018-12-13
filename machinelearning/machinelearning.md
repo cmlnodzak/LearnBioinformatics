@@ -1,4 +1,6 @@
-# Topics in Maching Learning
-
+---
+title:  Machine Learning
+layout: post
+---
 
 This page is under construction

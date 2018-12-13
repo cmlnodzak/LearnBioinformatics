@@ -1,3 +1,9 @@
+---
+title: Recommended Reading 
+layout: post
+permalink: /reading/
+---
+
 # Recommended Reading 
 
 
