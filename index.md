@@ -6,6 +6,7 @@
  
   --- Glossary<br/>
   --- Working at the Command Line<br/>
+  --- [Programming in Python]({{ https://cmlnodzak.github.io/ }}{% link programming.html %}) <br/>
   --- [Programming in Python](https://cmlnodzak.github.io/programming.html) <br/>
   --- Statistics for Bioinformatics<br/>
   --- Advanced Machine Learning<br/>
