@@ -6,5 +6,5 @@ layout: default
 
 Placeholder text for topics in Python.
 
-[Home]({{ site.baseurl }}{% link index.md %})
+[Home](% link https://cmlnodzak.github.io/index.md %})
 
