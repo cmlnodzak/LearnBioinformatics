@@ -1,4 +1,5 @@
 ---
+title: Bioinformatics Blog
 layout: default
 ---
 
