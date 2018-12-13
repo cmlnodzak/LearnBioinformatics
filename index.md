@@ -1,4 +1,8 @@
-# Bioinformatics & Computational Biology
+---
+title: Bioinformatics & Computational Biology
+layout: post
+---
+
   This blog will be my *attempt* to provide a resource to new students to bioinformatics<br/> learn about the field and develop of Python programming skills.
   
 
