@@ -9,6 +9,8 @@ layout: default
 
 [Glossary]({{ site.baseurl }}{% link glossary/index.md  %})
 
+[Reproducible Research]({{ site.baseurl }}{% link reproducible/index.md  %})
+
 [Command Line Basics]({{ site.baseurl }}{% link commandLine/index.md  %})
 
 [Programming with Python]({{ site.baseurl }}{% link programming/index.md  %})
