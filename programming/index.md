@@ -1,5 +1,4 @@
 ---
-title: Programming with Python
 layout: default
 ---
 
@@ -8,3 +7,4 @@ layout: default
 Placeholder text for topics in Python.
 
 [Home]({{ site.baseurl }}{% link index.md %})
+
