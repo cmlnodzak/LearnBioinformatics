@@ -1,3 +1,9 @@
+---
+title: Sequencing Technologies
+layout: post
+permalink: /reading/
+---
+
 # Sequencing Technologies
 
 
