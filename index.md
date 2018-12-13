@@ -1,11 +1,10 @@
 # Bioinformatics & Computational Biology
   This blog will be my *attempt* to provide a resource to new students to bioinformatics<br/> learn about the field and develop of Python programming skills.
   
-### Potential Topics
-  --- [Programming in Python]({{ https://cmlnodzak.github.io/ }}{% link programming.html %}) <br/>
+
   --- [Glossary]({{ https://cmlnodzak.github.io/ }}{% link glossary.md %}) <br/>
   --- [Working at the Command Line]({{ https://cmlnodzak.github.io/ }}{% link commandLine.html %}} <br/>
-  --- [Programming in Python]({{ https://cmlnodzak.github.io/ }}{% link programming.html %}) <br/>
+  --- [Programming in Python]({{ https://cmlnodzak.github.io/ }}{% link programming.md %}) <br/>
   --- [Statistics for Bioinformatics]({{ https://cmlnodzak.github.io/ }}{% link statistics.html %}) <br/>
   --- [Machine Learning]({{ https://cmlnodzak.github.io/ }}{% link machinelearning.html %}) <br/>
   --- [Sequencing Technologies]({{ https://cmlnodzak.github.io/ }}{% link sequencing.html %}) <br/>
