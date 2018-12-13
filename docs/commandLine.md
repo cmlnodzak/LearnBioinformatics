@@ -1,4 +1,7 @@
-# Learn the Command Line 
+---
+title: Learn the Command Line 
+layout: post
+--- 
 
 
 This page is under construction
