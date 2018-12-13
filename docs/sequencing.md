@@ -1,7 +1,7 @@
 ---
 title: Sequencing Technologies
 layout: post
-permalink: /reading/
+permalink: /sequencing/
 ---
 
 # Sequencing Technologies
