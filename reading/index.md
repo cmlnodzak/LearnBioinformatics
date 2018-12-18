@@ -1,4 +1,5 @@
 ---
+title: Recommended Reading
 layout: default
 ---
 

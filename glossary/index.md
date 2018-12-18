@@ -1,4 +1,5 @@
 ---
+title: A Bioinformatics Dictionary
 layout: default
 ---
 
