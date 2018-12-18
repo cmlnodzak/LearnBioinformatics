@@ -11,6 +11,8 @@ layout: default
 
 [Reproducible Research]({{ site.baseurl }}{% link reproducible/index.md  %})
 
+[Fundamental Biochemistry]({{ site.baseurl }}{% link biochemistry/index.md  %})
+
 [Command Line Basics]({{ site.baseurl }}{% link commandLine/index.md  %})
 
 [Programming with Python]({{ site.baseurl }}{% link programming/index.md  %})
