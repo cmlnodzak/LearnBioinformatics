@@ -27,6 +27,8 @@ layout: default
 
 [Machine Learning]({{ site.baseurl }}{% link machinelearning/index.md  %})
 
+[Data Science]({{ site.baseurl }}{% link datascience/index.md  %})
+
 [Molecular Sequencing Analysis]({{ site.baseurl }}{% link MSA/index.md  %})
 
 [Recommended Reading]({{ site.baseurl }}{% link reading/index.md  %})
