@@ -22,7 +22,7 @@ This page is under construction
 8. Nonparametric Testing and Multiple Testing
 9. Multiple Sample Hypothesis Testing: Analysis of Variance (Anova)
 10. Categorical Data Testing
-11. Correlationa and Linear Regression
+11. Correlation and Linear Regression
 
 
 
