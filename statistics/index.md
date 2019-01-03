@@ -9,13 +9,13 @@ This page is under construction
 
 [Home]({{ site.baseurl }}{% link index.md %})
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
-
 $$\mu$$
 
-$$\theta$$
+$$\sigma = \sqrt{\frac{\sum{(x-\mu)^2{N}} }}$$
 
 $$\frac{n!}{k!(n-k)!}$$
+
+$${n \choose k}{p^k}{(1-p)^{n-k}}
 
 ## Topical Overview
 
