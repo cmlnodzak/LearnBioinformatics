@@ -62,6 +62,7 @@ Type __q()__ to exit __R__. <br/>
 
 ## Data Matrices in R: <br/>
 Construction of a matrix is by column as the default.
+	
 	> matrixA <- matrix(1:6,nrow=2,ncol=3)
 	> matrixA
 		   [1] [2] [3]
@@ -75,6 +76,7 @@ Construction of a matrix is by column as the default.
                 that 2   4   6
 
 Functions to combine vectors into matrices.
+	
 	> plant_seed <- rbind(c(30,20,50),c(10,20,30))
 	> dimnames(plant_seed) <- list(c("Round","Wrinkled"),c("Y","G","R"))
 	> plant_seed
@@ -103,12 +105,18 @@ Each column is stored as a variable, which have names.
 
 
 To access the variables within a DataFrame...
+
 	Use the __$__ notation.
+
 		> cc$sampleI
 			[1] 7 10 12 34
+
 	Make the variable directly callable with __attach()__.
+
 		> attach(cc)
 		> sampleII
 			[1] 4 9 15 29
+
 	Remove the DataFrame with __detach()__. 
-	Additional data may be appened to an existing DataFrame with rbind()/cbind().
+
+	Additional data may be appened to an existing DataFrame with rbind() and/or cbind().
