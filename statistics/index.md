@@ -10,8 +10,11 @@ This page is under construction
 
 
 
-# $\mu
+\mu
 
+\theta
+
+\frac{n!}{k!(n-k)!}
 
 ## Topical Overview
 
