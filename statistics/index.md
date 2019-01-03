@@ -1,6 +1,6 @@
 ---
 layout: default
-mathjax: true
+math: true
 ---
 
 # Statistics for Bioinformatics
