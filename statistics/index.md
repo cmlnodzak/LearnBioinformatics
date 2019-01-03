@@ -9,6 +9,10 @@ This page is under construction
 [Home]({{ site.baseurl }}{% link index.md %})
 
 
+
+# $\mu
+
+
 ## Topical Overview
 
 0. [Introduction to the R Programming Language]({{ site.baseurl }}{% link statistics/docs/chapter1.md %})
