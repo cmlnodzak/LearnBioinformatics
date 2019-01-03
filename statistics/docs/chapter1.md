@@ -1,3 +1,8 @@
+---
+title: Introduction
+layout: default
+---
+
 # I. *Introduction to the R Programming Language*
 
 Let's begin by opening up an R session. <br/>
