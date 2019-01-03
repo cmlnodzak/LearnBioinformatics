@@ -11,14 +11,7 @@ This page is under construction
 
 $$\mu$$
 
-$$\sqrt{\frac{\sum{(x-\mu)^2{N}} }}$$
-
-$$\frac{n!}{k!(n-k)!}$$
-
-$$ y = \frac{{n!}}{{k!\left( {n - k} \right)!}}p^k q^{n - k}  = \left( {\begin{array}{*{20}c}
-   n  \\
-   k  \\
-\end{array}} \right)p^k q^{n - k}$$
+$${n \choose k} = \frac{n!}{k!(n-k)!}$$
 
 ## Topical Overview
 
