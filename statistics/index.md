@@ -8,13 +8,13 @@ This page is under construction
 
 [Home]({{ site.baseurl }}{% link index.md %})
 
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
+$$\mu$$
 
-\mu
+$$\theta$$
 
-\theta
-
-\frac{n!}{k!(n-k)!}
+$$\frac{n!}{k!(n-k)!}$$
 
 ## Topical Overview
 
