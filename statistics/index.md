@@ -11,7 +11,7 @@ This page is under construction
 
 ## Topical Overview
 
-0. Introduction to the R Programming Language
+0. [Introduction to the R Programming Language]({{ site.baseurl }}{% link docs/chapter1.md %})
 1. Descriptive Statistics and General Probability
 2. Random Variables
 3. Probability Distributions
