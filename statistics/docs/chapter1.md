@@ -5,6 +5,10 @@ layout: default
 
 # I. *Introduction to the R Programming Language*
 
+[Home]({{ site.baseurl }}{% link index.md %})
+[Section Home]({{ site.baseurl }}{% link statistics/index.md %})
+
+
 Let's begin by opening up an R session. <br/>
 The ">" symbol displays at the beginning of the line to prompt you for a command. <br/>
 Type the command "ls()", followed by enter. <br/>
