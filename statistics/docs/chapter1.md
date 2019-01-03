@@ -38,7 +38,8 @@ Type __q()__ to exit __R__. <br/>
 		> xy <- 3	(Assign the numeric value 3 to variable "xy" )
 		> xy	(Reference the assigned variable.)
 		    [1] 3	(R returns the one-element long vector, everything in R is a vector!)
-## R is an Object Oriented Programming Language:
+
+## R is an Object Oriented Programming Language: <br/>
 	This means that everything in R is an object belonging to some class.
 		> mode(): a classification of objects according to their basic structure.
 			modes include numeric, character, logical, list, function.
