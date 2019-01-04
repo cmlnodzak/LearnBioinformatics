@@ -41,8 +41,9 @@ layout: default
 
 	__Systematic Sampling__: selection of elements from an ordered sampling frame.
 		The selection starts by taking an element at random followed by 
-		every $$k^{th}$$ element, where:
-		$$ K = (\frac{N}{n})
+		every $k^{th}$ element, where:
+
+$$ K = (\frac{N}{n})$$
 
 	__Stratified Sampling__: There may often be factors that divide of partition the 
 		population into subpopulations (i.e. groups/strata), and we may reasonably
@@ -52,7 +53,8 @@ layout: default
 ## [Measurents of Central Tendency]
 	
 	__mean__: the average of *n* values of data.
-	$$\bar{x} = \frac{1}{n}\left (\sum_{i=1}^n{x_i}\right ) = \frac{x_1+x_2+\cdots +x_n}{n}$$
+
+$$\bar{x} = \frac{1}{n}\left (\sum_{i=1}^n{x_i}\right ) = \frac{x_1+x_2+\cdots +x_n}{n}$$
 
 	__median__: the central value of an ordered dataset, more robust than the mean to outliers.
 
