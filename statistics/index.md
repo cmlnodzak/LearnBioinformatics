@@ -13,20 +13,20 @@ $$\mu$$
 
 $${n \choose k} = \frac{n!}{k!(n-k)!}$$
 
-## Topical Overview
+## Sections
 
-0. [Introduction to the R Programming Language]({{ site.baseurl }}{% link statistics/docs/chapter1.md %})
-1. Descriptive Statistics and General Probability
-2. Random Variables
-3. Probability Distributions
-4. Sampling Distributions and Confidence Interval Estimation
-5. Hypothesis Testing
-6. P-values and Two-sample Population Mean Test
-7. Normality and Variance Testing
-8. Nonparametric Testing and Multiple Testing
-9. Multiple Sample Hypothesis Testing: Analysis of Variance (Anova)
-10. Categorical Data Testing
-11. Correlation and Linear Regression
+1. [Introduction to the R Programming Language]({{ site.baseurl }}{% link statistics/docs/chapter1.md %})
+2. [Descriptive Statistics and General Probability]({{ site.baseurl }}{% link statistics/docs/chapter2.md %}) 
+3. Random Variables
+4. Probability Distributions
+5. Sampling Distributions and Confidence Interval Estimation
+6. Hypothesis Testing
+7. P-values and Two-sample Population Mean Test
+8. Normality and Variance Testing
+9. Nonparametric Testing and Multiple Testing
+10. Multiple Sample Hypothesis Testing: Analysis of Variance (Anova)
+11. Categorical Data Testing
+12. Correlation and Linear Regression
 
 
 
