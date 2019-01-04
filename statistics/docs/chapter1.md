@@ -19,12 +19,15 @@ Type __q()__ to exit __R__. <br/>
 
 
 ## To get help in __R__: <br/>
-If the function name is known (ex. "sum")
+If the function name is known (ex. "sum") <br/>
+
 	> help(sum)
 	> help(sd)
 	> ?sum
 	> ?sd()
-If the function name is not known
+
+If the function name is not known <br/>
+
 	> help.search("standard deviation")
 
 
@@ -33,14 +36,18 @@ If the function name is not known
 -- Cannot start with a period followed by a digit. <br/>
 -- Names are case-sensitive. <br/>
 -- Specific, system-names to avoid using: <br/>
+
 	(e.g.) c, q, t, C, D, F, I, T, diff, etc. <br/>
+
 -- Symbolic variables can be assigned values. <br/>
+	
 	> xy <- 3	(Assign the numeric value 3 to variable "xy" )
 	> xy	(Reference the assigned variable.)
 	    [1] 3	(R returns the one-element long vector, everything in R is a vector!)
 
 ## R is an Object Oriented Programming Language: <br/>
 This means that everything in R is an object belonging to some class. <br/>
+	
 	> mode(): a classification of objects according to their basic structure.
 		modes include numeric, character, logical, list, function.
 	> class(): a property assigned to an object, which determines how any function operates with an object of a particular class.
@@ -49,6 +56,7 @@ This means that everything in R is an object belonging to some class. <br/>
 -- The elementary datatypes in R are all vectors. <br/>
 -- The c() construct is used to create concatenated vector. <br/>
 -- Elements of a vector must have the same mode. <br/>
+	
 	> seq()
 		A sequence function, used to generate equidistant series of numbers.
 	> seq(start, end, step-size)
