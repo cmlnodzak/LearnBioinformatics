@@ -106,7 +106,7 @@ Each column is stored as a variable, which have names.
 
 To access the variables within a DataFrame...
 
-	Use the __$__ notation.
+	Use the __\$__ notation.
 
 		> cc$sampleI
 			[1] 7 10 12 34
