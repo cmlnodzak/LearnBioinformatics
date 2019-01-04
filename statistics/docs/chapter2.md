@@ -16,13 +16,12 @@ layout: default
 
 	[x] Parameter: a descriptive measure computed form the data of a population.
 
-
-Measurement | Population Parameter | Sample Statistic
-===
-mean | \mu | \bar{x} 
-proportion | p | \hat{p}
-variance | \sigma^{2} | s^2
-correlation coefficient | \Rho | r
+	Measurement | Population Parameter | Sample Statistic
+	------------ | ------------- | ------------- |
+	mean | \mu | \bar{x} 
+	proportion | p | \hat{p}
+	variance | \sigma^{2} | s^2
+	correlation coefficient | \Rho | r
 
 
 
