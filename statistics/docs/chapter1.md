@@ -29,26 +29,26 @@ If the function name is not known
 
 
 ## Variable Names and Assignments:
--- Flexible, but cannot begin with a number.
--- Cannot start with a period followed by a digit.
--- Names are case-sensitive.
--- Specific, system-names to avoid using:
-	(e.g.) c, q, t, C, D, F, I, T, diff, etc.
--- Symbolic variables can be assigned values.
+-- Flexible, but cannot begin with a number. <br/>
+-- Cannot start with a period followed by a digit. <br/>
+-- Names are case-sensitive. <br/>
+-- Specific, system-names to avoid using: <br/>
+	(e.g.) c, q, t, C, D, F, I, T, diff, etc. <br/>
+-- Symbolic variables can be assigned values. <br/>
 	> xy <- 3	(Assign the numeric value 3 to variable "xy" )
 	> xy	(Reference the assigned variable.)
 	    [1] 3	(R returns the one-element long vector, everything in R is a vector!)
 
 ## R is an Object Oriented Programming Language: <br/>
-This means that everything in R is an object belonging to some class.
+This means that everything in R is an object belonging to some class. <br/>
 	> mode(): a classification of objects according to their basic structure.
 		modes include numeric, character, logical, list, function.
 	> class(): a property assigned to an object, which determines how any function operates with an object of a particular class.
 
 ## Vectors in R: <br/>
--- The elementary datatypes in R are all vectors.
--- The c() construct is used to create concatenated vector.
--- Elements of a vector must have the same mode.
+-- The elementary datatypes in R are all vectors. <br/>
+-- The c() construct is used to create concatenated vector. <br/>
+-- Elements of a vector must have the same mode. <br/>
 	> seq()
 		A sequence function, used to generate equidistant series of numbers.
 	> seq(start, end, step-size)
@@ -62,7 +62,7 @@ This means that everything in R is an object belonging to some class.
 		[1] 8 9 9 10 10 10
 
 ## Data Matrices in R: <br/>
-Construction of a matrix is by column as the default.
+Construction of a matrix is by column as the default. <br/>
 	
 	> matrixA <- matrix(1:6,nrow=2,ncol=3)
 	> matrixA
@@ -76,7 +76,7 @@ Construction of a matrix is by column as the default.
                 this 1   3   5
                 that 2   4   6
 
-Functions to combine vectors into matrices.
+Functions to combine vectors into matrices. <br/>
 	
 	> plant_seed <- rbind(c(30,20,50),c(10,20,30))
 	> dimnames(plant_seed) <- list(c("Round","Wrinkled"),c("Y","G","R"))
@@ -91,8 +91,8 @@ Functions to combine vectors into matrices.
 		R 50 30
 
 ## DataFrames: <br/>
-The most common data storage format.
-Each column is stored as a variable, which have names.
+The most common data storage format. <br/>
+Each column is stored as a variable, which have names. <br/>
 
 	> aa <- c( 7, 10, 12, 34)
 	> bb <- c( 4, 9, 15, 29)
@@ -105,19 +105,17 @@ Each column is stored as a variable, which have names.
 	4	34	29
 
 
-To access the variables within a DataFrame...
-
-Use the __\$__ notation.
+To access the variables within a DataFrame use the __\$__ notation. <br/>
 
 	> cc$sampleI
 		[1] 7 10 12 34
 
-Make the variable directly callable with __attach()__.
+Make the variable directly callable with __attach()__. <br/>
 
 	> attach(cc)
 	> sampleII
 		[1] 4 9 15 29
 
-Remove the DataFrame with __detach()__. 
+Remove the DataFrame with __detach()__.  <br/>
 
 Additional data may be appened to an existing DataFrame with __rbind()__ and/or __cbind()__.
