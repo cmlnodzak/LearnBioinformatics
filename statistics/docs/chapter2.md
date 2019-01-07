@@ -135,7 +135,7 @@ $$ P(A\cup B) = P(A) + P(B) $$
 
 The probability of A given the occurence of B. 
 
-$$ P(A \mid B )= \frac{P(A \cap B}{P(B)}  , P(B) \neq 0 $$
+$$ P(A \mid B )= \frac{P(A \cap B)}{P(B)}  , P(B) \neq 0 $$
 
 ## Independence
 
