@@ -54,7 +54,7 @@ population into subpopulations (i.e. groups/strata), and we may reasonably <br/>
 expect the measurement of interest to vary among them. The strata must therefore <br/>
 be disjoint in order to reduce sampling variability.
 
-## [Measurents of Central Tendency]
+## Measurents of Central Tendency
 	
 __mean__
 : the average of *n* values of data. <br/>
