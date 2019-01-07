@@ -100,13 +100,37 @@ __Outliers__
 
 Probability of event A, __P(A)__, describes the uncertainty that event A occurs, and is given by values that range from 0 to 1, inclusive.
 
-$$ P(A) = \frac{n_a}{n_s} = \frac{\text{\# Of Ways Event A Can Occur}}{\text{\# Of Ways An Experiment May Proceed}} $$
+$$ P(A) = \frac{n_a}{n_s} = \frac{\text{# Of Ways Event A Can Occur}}{\text{# Of Ways An Experiment May Proceed}} $$
 
 Relative frequency concept of probability
 
-$$ P(A) = \lim_{x \to \infty}\frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\text{\# Of Times Event A Occured}}{\text{\# Of Times An Experiment Was Run}} $$
+$$ P(A) = \lim_{x \to \infty}\frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\text{# Of Times Event A Occured}}{\text{# Of Times An Experiment Was Run}} $$
 
 *Alternatively, subjective probabilities are based on personal opinion*
+
+
+## Sample Space and Events
+
+__Sample space__
+: a sample space for an experiment is a set *S* that contains all possible outcomes. Each experimental outcome corresponds exactly once to an element of *S*, ccalled a __sample point__.
+
+__Event__
+: Any subset, *A*, of a sample space is an event. The empty set $$ \emptyset $$ is the impossible event and the subset of *S* is the certain event.
+
+
+$$ P(A\cup B) = \text{ The union of A with B. Outcomes favorable to A OR B.} $$
+
+$$ P(A\cap B) = \text{ The intersection of A with B. Outcomes favorable to A AND B.} $$
+
+__Mutually Exclusive Events__
+: two events are mutually exclusive if and only if the intersection of the two events is the empty set.
+$$ P(A\cap B) = \emptyset $$
+This tells us that if two events are mutually exclusive, the occurence of one precludes the other event.
+$$ P(A\cup B) = P(A) + P(B) $$
+
+
+
+
 
 
 
