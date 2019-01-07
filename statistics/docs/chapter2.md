@@ -99,11 +99,11 @@ __Outliers__
 
 Probability of event A, __P(A)__, describes the uncertainty that event A occurs, and is given by values that range from 0 to 1, inclusive.
 
-$$ P(A) = \frac{n_a}{n_s} = \frac{\# of ways event A can occur}{\# of ways an experiment may proceed} $$
+$$ P(A) = \frac{n_a}{n_s} = \frac{\# Of Ways Event A Can Occur}{\# Of Ways An Experiment May Proceed} $$
 
 Relative frequency concept of probability
 
-$$ P(A) = \lim_{x \to \infty} \frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\# of times event A occured}{\# of times an experiment was run}} $$
+$$ P(A) = \lim_{x \to \infty}\frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\# Of Times Event A Occured}{\# Of Times An Experiment Was Run} $$
 
 *Alternatively, subjective probabilities are based on personal opinion*
 
