@@ -3,12 +3,12 @@ title: Descriptive Statistics and General Probability
 layout: default
 ---
 
-# II. Descriptive Statistis and General Probability
+# II. Descriptive Statistics and General Probability
 
 [Home]({{ site.baseurl }}{% link index.md %}) <br/>
 [Section Home]({{ site.baseurl }}{% link statistics/index.md %})
 
-## [1] Statistical Methods
+## Statistical Methods
 __Descriptive__: describe key features of a data set
 	
 __Inferential__
@@ -31,7 +31,7 @@ __Parameter__
 |correlation coefficient | $$\rho$$ | r |
 {: rules="groups"}
 
-## [2] Sampling Methods and Techniques
+## Sampling Methods and Techniques
 __Random Sample__
 : a sample of *n* measurements selected from <br/>
 a population is random if every different sample of size <br/>
@@ -63,8 +63,50 @@ $$\bar{x} = \frac{1}{n}\left (\sum_{i=1}^n{x_i}\right ) = \frac{x_1+x_2+\cdots +
 __median__
 : the central value of an ordered dataset, more robust than the mean to outliers.
 
-
 __mode__
 : the most frequent data entry in a set. Can have no more, unimodal or bimodal.
+
+## Measures of Spread / Variation
+
+__MAD__
+: median absolute deviation
+$$ MAD = median_i( | X_i - median_j(x_j) | ) $$
+
+__SSE__
+: sum of squared errors
+$$ \sum_{i=1}^n{x_i}(x_i - \bar{x}^2)$$
+
+__Standard deviation__
+: $$ *s* = \sqrt{\frac{\sum_{i=1}^N (x_i - \bar{x})^2}{N-1} } $$
+
+__Variance__ 
+: $$ *s^2* $$
+
+__Coefficient of Variation__
+: $$ CV = \frac{*s*}{\bar{x}}*100%
+
+__Range__
+: Gives the minimum value and maximum value for a dataset to show the boundaries.
+
+__IQR__
+: Interquartile Range, the third quartile minus the first quartile 
+$$ IQR = (Q_3 - Q_1) $$
+
+__Outliers__
+: any datapoint that lies more that ( 1.5 * IQR ) lower or higher than the first or third quartiles
+
+## Basic Probability Concepts
+
+A probability describes the uncertainty of an event, and is given by values that range from 0 to 1, inclusive.
+
+$$ P(A) = \left{\frac{n_a}{n_s}} = \right{\frac{# of ways event A can occur}{# of ways an experiment may proceed}} $$
+
+Relative frequency concept of probability
+
+$$ P(A) = \lim_{x \to \infty} \frac{n_a}{n} \approx \frac{n_a}{n} = \frac{# of times event A occured}{# of times an experiment was run}} $$
+
+*Alternatively, subjective probabilities are based on personal opinion*
+
+
 
 
