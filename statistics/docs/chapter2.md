@@ -123,10 +123,43 @@ $$ P(A\cup B) = \text{ The union of A with B. Outcomes favorable to A OR B.} $$
 $$ P(A\cap B) = \text{ The intersection of A with B. Outcomes favorable to A AND B.} $$
 
 __Mutually Exclusive Events__
-: two events are mutually exclusive if and only if the intersection of the two events is the empty set.
-$$ P(A\cap B) = \emptyset $$
+: two events are mutually exclusive if, and only if, the intersection of the two events is the empty set.
+
+(i.e. $$ P(A\cap B) = \emptyset $$ ).
+
 This tells us that if two events are mutually exclusive, the occurence of one precludes the other event.
+
 $$ P(A\cup B) = P(A) + P(B) $$
+
+## Conditional Probability
+
+The probability of A given the occurence of B. 
+
+$$ P(A \mid B )= \frac{P(A \cap B}{P(B)}  , P(B) \neq 0 $$
+
+## Independence
+
+It is possible that the occurence of event B has no effect on the occurence of event A. (i.e. the conditional probability $$ P(A \mid B ) = P(A) $$ ). 
+This is true if, and only if, 
+
+$$ P(A\cap B) = P(A) \times P(B) $$
+
+*Note: independence is a distinct concept from mutual exclusivity.*
+
+
+## Joint and Marginal Probability
+
+__Joint probability__
+: $$ P(A \cap B ) = P(A \mid B) \times P(B) $$
+
+__Marginal probability__
+: $$ P(A) = \sum_B P(A \cap B) = [ \, \sum_B P(A \mid B) \times P(B) ] \, $$
+
+__Bayes' Theorem__
+: The posterior probability, or the probability of event *A* given event *B*, is equal to the joint probability of *B* AND *A* divided by the marginal probability of event *A*.
+
+$$ P(A \mid B) = \frac{P(B \mid A) \times P(A)}{[ \, \sum_B P(A \mid B) \times P(B) ]}$$
+
 
 
 
