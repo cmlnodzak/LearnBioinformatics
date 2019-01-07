@@ -125,9 +125,9 @@ $$ P(A\cap B) = \text{ The intersection of A with B. Outcomes favorable to A AND
 __Mutually Exclusive Events__
 : two events are mutually exclusive if, and only if, the intersection of the two events is the empty set.
 
-$$ P(A\cap B) = \emptyset $$
+: this tells us that if two events are mutually exclusive, the occurence of one precludes the other event.
 
-: This tells us that if two events are mutually exclusive, the occurence of one precludes the other event.
+$$ P(A\cap B) = \emptyset $$
 
 $$ P(A\cup B) = P(A) + P(B) $$
 
