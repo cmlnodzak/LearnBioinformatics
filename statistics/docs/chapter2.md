@@ -77,29 +77,29 @@ __SSE__
 $$ \sum_{i=1}^n{x_i}(x_i - \bar{x}^2)$$
 
 __Standard deviation__
-: $$ *s* = \sqrt{\frac{\sum_{i=1}^N (x_i - \bar{x})^2}{N-1} } $$
+: $$ s = \sqrt{\frac{\sum_{i=1}^N (x_i - \bar{x})^2}{N-1} } $$
 
 __Variance__ 
-: $$ *s^2* $$
+: $$ s^2 $$
 
 __Coefficient of Variation__
-: $$ CV = \frac{*s*}{\bar{x}}*100%
+: $$ CV = \frac{*s*}{\bar{x}}*100% $$
 
 __Range__
 : Gives the minimum value and maximum value for a dataset to show the boundaries.
 
 __IQR__
 : Interquartile Range, the third quartile minus the first quartile 
-$$ IQR = (Q_3 - Q_1) $$
+$$ IQR = (Q_3 - Q_1) $$.
 
 __Outliers__
 : any datapoint that lies more that ( 1.5 * IQR ) lower or higher than the first or third quartiles
 
 ## Basic Probability Concepts
 
-A probability describes the uncertainty of an event, and is given by values that range from 0 to 1, inclusive.
+Probability of event A, __P(A)__, describes the uncertainty that event A occurs, and is given by values that range from 0 to 1, inclusive.
 
-$$ P(A) = \left{\frac{n_a}{n_s}} = \right{\frac{# of ways event A can occur}{# of ways an experiment may proceed}} $$
+$$ P(A) = \frac{n_a}{n_s} = \frac{# of ways event A can occur}{# of ways an experiment may proceed} $$
 
 Relative frequency concept of probability
 
