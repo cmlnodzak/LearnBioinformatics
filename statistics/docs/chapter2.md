@@ -9,9 +9,10 @@ layout: default
 [Section Home]({{ site.baseurl }}{% link statistics/index.md %})
 
 ## Statistical Methods
-__Descriptive__: describe key features of a data set
+__Descriptive statistics__
+: describe key features of a data set.
 	
-__Inferential__
+__Inferential statistics__
 : draw conclusions about the population based on sample data.
 
 	Where a population refers to an ideal or theoretical group
@@ -45,7 +46,7 @@ of being included in the sample.
 __Systematic Sampling__
 : selection of elements from an ordered sampling frame. <br/>
 The selection starts by taking an element at random followed by <br/> 
-every $k^{th}$ element, where:<br/>
+every $$k^{th}$$ element, where:<br/>
 $$ K = (\frac{N}{n})$$
 
 __Stratified Sampling__
@@ -99,11 +100,11 @@ __Outliers__
 
 Probability of event A, __P(A)__, describes the uncertainty that event A occurs, and is given by values that range from 0 to 1, inclusive.
 
-$$ P(A) = \frac{n_a}{n_s} = \frac{\# Of Ways Event A Can Occur}{\# Of Ways An Experiment May Proceed} $$
+$$ P(A) = \frac{n_a}{n_s} = \frac{\text{\# Of Ways Event A Can Occur}}{\text{\# Of Ways An Experiment May Proceed}} $$
 
 Relative frequency concept of probability
 
-$$ P(A) = \lim_{x \to \infty}\frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\# Of Times Event A Occured}{\# Of Times An Experiment Was Run} $$
+$$ P(A) = \lim_{x \to \infty}\frac{n_a}{n} \approx \frac{n_a}{n} = \frac{\text{\# Of Times Event A Occured}}{\text{\# Of Times An Experiment Was Run}} $$
 
 *Alternatively, subjective probabilities are based on personal opinion*
 
