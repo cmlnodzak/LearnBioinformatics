@@ -17,7 +17,7 @@ $${n \choose k} = \frac{n!}{k!(n-k)!}$$
 
 1. [Introduction to the R Programming Language]({{ site.baseurl }}{% link statistics/docs/chapter1.md %})
 2. [Descriptive Statistics and General Probability]({{ site.baseurl }}{% link statistics/docs/chapter2.md %}) 
-3. Random Variables
+3. [Random Variables]({{ site.baseurl }}{% link statistics/docs/chapter3.md %})
 4. Probability Distributions
 5. Sampling Distributions and Confidence Interval Estimation
 6. Hypothesis Testing
