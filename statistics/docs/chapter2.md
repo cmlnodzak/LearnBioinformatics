@@ -161,9 +161,55 @@ __Bayes' Theorem__
 $$ P(A \mid B) = \frac{P(B \mid A) \times P(A)}{[ \, \sum_B P(A \mid B) \times P(B) ]}$$
 
 
+## Terminology in diagnostic tests
 
+__Specificity__
+: The probability of a negative test result among patients without the disease.
 
+$$ specificity = \frac{\text{true negatives}}{\text{(true negatives + false positives)}} $$
 
+$$ specificity = \frac{\text{TN}}{\text{(TN + FP)}} $$
+
+__Sensitivity__
+: The probability of a positive test result among patients with the disease.
+
+$$ sensitivity = \frac{\text{true positives}}{\text{(true positives + false negatives)}} $$
+
+$$ sensitivity = \frac{\text{TP}}{\text{(TP + FN)}} $$
+
+__Prevalence__
+: The ratio of disease occurences to the total samples or population.
+
+$$ prevalance = \frac{\text{Diseased}}{\text{(Diseased + Healthy)}} $$
+
+$$ prevalance = \frac{\text{D}}{\text{(D + H)}} $$
+
+__Accuracy__
+: The ratio of true test results to the total samples or population.
+
+$$ accuracy = \frac{\text{(true positives + true negatives)}}{\text{(Diseased + Healthy)}} $$
+
+$$ accuracy = \frac{\text{(TP + TN)}}{\text{(D + H)}} $$
+
+__Positive Predictive Value__
+: (PPD) The ratio of true positives to all positive test results.
+
+$$ PPD = \frac{\text{true positives}}{\text{(true positives + false positives)}} $$
+
+$$ PPD = \frac{\text{TP}}{\text{(TP + FP)}} $$
+
+__Negative Predictive Value__
+: (NPD) The ratio of true negatives to all negative test results.
+
+$$ NPD = \frac{\text{true negatives}}{\text{(true negatives + false negatives)}} $$
+
+$$ NPD = \frac{\text{TN}}{\text{(TN + FN)}} $$
+
+|Test Result | Disease (D) | Healthy (H) |
+| :---: | :---: | :---: |
+|Diseased (+) | TP | FP |
+|Healthy (-) | FN | TN |
+{: rules="groups"}
 
 
 
