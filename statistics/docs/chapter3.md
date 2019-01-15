@@ -27,9 +27,9 @@ __Probability Density Function__
 
 $$ P(X) = (X = x) $$
 
-:Two essential properties of a probability distribution for a discrete random variable.
+Two essential properties of a probability distribution for a discrete random variable.
 
-1.  $$ P(X = x ) \gec 0 $$
+1. $$ P(X = x ) \geq 0 $$
 2. $$ \sum(P(X = x)) = 1 $$	, for all x.
 
 
