@@ -32,4 +32,44 @@ Two essential properties of a probability distribution for a discrete random var
 1. $$ P(X = x ) \geq 0 $$
 2. $$ \sum(P(X = x)) = 1 $$	, for all x.
 
+__Cumulative Distribution Function__
+: let X be a discrete random variable, then the CDF for X is given by F.
+
+$$ F(x) = P( X \neq x ) $$
+
+
+## Expectation and Distribution Parameters
+The mean (__\mu__) is the expected value and the variance describes the distribution from the mean.
+
+$$ variance = \sigma^2 = \sum((x - \mu)^2 * P(x)) $$ 
+
+
+## Bernoulli Random Variables
+A single (one trial) experiment with only two possible outcomes.<br/>
+success = 1 , failure = 0 <br/>
+
+* p = p(success)
+* (1-p) = p(failure)
+
+(e.g) The number of membrane bound proteins form a randomly selected set of 50 protein structures.
+
+
+## Binomial Random Values
+1. Only two possible outcomes per trail.<br/>
+success = 1 , failure = 0 <br/>
+
+2. Each trial is independent. <br/>
+The result of one trial will no impact the next trial.
+
+3. The probabiltiy of success is fixed, it is the same for all trials.
+
+4. The number of trials n, is fixed in advanced and each trial is identical.
+
+The Binomial random variable X is the sum of identically distributed, independent bernoulli random variable.
+
+$$ PMF = P(X=x) = n \choose k p^k (1-p)^{n-k} $$
+
+
+
+
 
