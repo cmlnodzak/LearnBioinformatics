@@ -39,7 +39,7 @@ $$ F(x) = P( X \neq x ) $$
 
 
 ## Expectation and Distribution Parameters
-The mean (__\mu__) is the expected value and the variance describes the distribution from the mean.
+The mean ($$\mu$$) is the expected value and the variance describes the distribution from the mean.
 
 $$ variance = \sigma^2 = \sum((x - \mu)^2 * P(x)) $$ 
 
@@ -67,7 +67,7 @@ The result of one trial will no impact the next trial.
 
 The Binomial random variable X is the sum of identically distributed, independent bernoulli random variable.
 
-$$ PMF = P(X=x) = n \choose k p^k (1-p)^{n-k} $$
+$$ PMF = P(X=x) = {n \choose k}p^k (1-p)^{n-k} $$
 
 
 
